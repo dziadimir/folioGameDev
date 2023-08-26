@@ -15085,7 +15085,7 @@ GameObject:
   - component: {fileID: 1610043208}
   - component: {fileID: 1610043207}
   m_Layer: 0
-  m_Name: Particle
+  m_Name: Particle_vfx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15172,7 +15172,7 @@ ParticleSystem:
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -20090,6 +20090,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9141047285395060909, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e7aa3d9c80f19a4797b62c5490ee829, type: 2}
     - target: {fileID: -8679921383154817045, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -20133,6 +20137,26 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5973635878941245567, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5973635878941245567, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_TargetDisplay
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -5973635878941245567, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.1509434
+      objectReference: {fileID: 0}
+    - target: {fileID: -5973635878941245567, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.1509434
+      objectReference: {fileID: 0}
+    - target: {fileID: -5973635878941245567, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.1509434
       objectReference: {fileID: 0}
     - target: {fileID: -5560782508319765032, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
       propertyPath: m_ClearFlags
@@ -20190,10 +20214,22 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.r
       value: 0.11021716
       objectReference: {fileID: 0}
+    - target: {fileID: 4637486556643880973, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e7aa3d9c80f19a4797b62c5490ee829, type: 2}
+    - target: {fileID: 5445022616698923426, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e7aa3d9c80f19a4797b62c5490ee829, type: 2}
     - target: {fileID: 5866666021909216657, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 768ac8f5a5914184c96321017a31d364, type: 2}
+    - target: {fileID: 5907454332858886760, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e7aa3d9c80f19a4797b62c5490ee829, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11c3db8c359098346b090fe87f4f388f, type: 3}
 --- !u!1 &2130799196
